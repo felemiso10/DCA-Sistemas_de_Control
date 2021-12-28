@@ -33,7 +33,7 @@ def adyacentes (casilla):
 
 def exploracion(mapa, casilla, destino, nodoBest, lInterior, lFrontera):
     coste = 0
-    pos = 1 #bug
+    pos = -1 #bug arreglado
     g = 0
     h = 0
     esta = False
