@@ -37,6 +37,7 @@ def exploracion(mapa, casilla, destino, nodoBest, lInterior, lFrontera):
     g = 0
     h = 0
     esta = False
+    
 
     if mapa.getCelda(casilla.getFila(),casilla.getCol()) != 1:
         for i in lInterior:
